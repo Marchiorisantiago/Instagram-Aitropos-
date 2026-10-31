@@ -1,0 +1,35 @@
+{
+  "name": "instagram-aitropos-mcp",
+  "version": "1.0.0",
+  "description": "MCP server para la API oficial de Instagram (Reels, posts, comentarios, insights, DMs)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marchiorisantiago/Instagram-Aitropos-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marchiorisantiago/Instagram-Aitropos-/issues"
+  },
+  "homepage": "https://github.com/Marchiorisantiago/Instagram-Aitropos-#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "bin": {
+    "instagram-aitropos-mcp": "dist/index.js"
+  }
+}
